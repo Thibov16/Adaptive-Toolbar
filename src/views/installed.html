@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank you for installing Adaptive Toolbar</title>
+    <meta name="theme-color" content="#64AFF3">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Inter;
+            box-sizing: border-box;
+        }
+        #header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 40px;
+            height: 10em;
+
+            color: #FFF;
+            text-align: center;
+            font-size: clamp(15px, 4vw, 30px);
+            font-weight: 700;
+
+            background-color: #64AFF3;
+        }
+        #divider {
+            position: relative;
+            overflow: hidden;
+            height: 100px;
+        }
+        #divider svg {
+            position: absolute;
+            top: -1px;
+            left: 0;
+
+            display: block;
+            width: 100%;
+            min-width: 1000px;
+            height: 100px;
+        }
+        #divider svg path {
+            fill: #64AFF3;
+        }
+        #main {
+            position: relative;
+            display: grid;
+            grid-template-columns: 1fr minmax(auto, 600px) 1fr;
+            padding: 30px;
+        }
+        #main div {
+            grid-column: 2/3;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        li {
+            margin: 5px 0 5px 30px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section id="header">
+            <h1>Thank you for installing <br/> Adaptive Toolbar</h1>
+        </section>
+        <div id="divider">
+            <svg viewBox="0 0 1440 103" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path d="M1474.5 0.5H-43V43C-43 43 48.3448 96.5 196.5 96.5C344.655 96.5 335.746 38.0243 479.5 14C659.5 -16.0818 628.5 64.5 792 43C985.894 17.5032 1051 74.8228 1165 96.5C1310.55 124.176 1474.5 43 1474.5 43V0.5Z" />
+            </svg>
+        </div>
+        <section id="main">
+            <div>
+                <h2>Quick Start</h2>
+                <ul>
+                    <li>Everything is set.</li>
+                    <li>Modify the theme, and the extension will seamlessly adapt.</li>
+                    <li>You can access quick settings by clicking the icon in the toolbar.</li>
+                </ul>
+                <br><br><br>
+                <h2>Note</h2>
+                <ul>
+                    <li>The extension won't work on special Firefox/extension pages like this one.</li>
+                    <li>You can currently not use themes that have images. Only custom themes made in Firefox Color can use images.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
