@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Adaptive Toolbar",
-    "version": "1.0",
+    "version": "1.0.1",
     "description": "Adaptive Toolbar is a Firefox extension designed to enhance your browsing experience by dynamically changing the color of the toolbar based on the theme-color property of the current website. Whether you prefer a seamless integration with the website's color scheme or have a custom theme in mind, Adaptive Toolbar gives you the flexibility to tailor your browser's appearance.",
     "icons": {
         "48": "icons/logo-48.png",

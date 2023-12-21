@@ -2,9 +2,13 @@
 
 Adaptive Toolbar is a Firefox extension designed to enhance your browsing experience by dynamically changing the color of the toolbar based on the theme-color property of the current website. Whether you prefer a seamless integration with the website's color scheme or have a custom theme in mind, Adaptive Toolbar gives you the flexibility to tailor your browser's appearance.
 
+<a href="https://addons.mozilla.org/firefox/addon/adaptive-toolbar/" target="_blank">
+	<img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" width="129" height="45">
+</a>
+
 ## Getting started
 
-- Install from Firefox Add-ons store.
+- Install from [Firefox Add-ons store](https://addons.mozilla.org/firefox/addon/adaptive-toolbar/).
 - Modify the theme, and the extension will seamlessly adapt.
 - You can access quick settings by clicking the icon in the toolbar.
 
