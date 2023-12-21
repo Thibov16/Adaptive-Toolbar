@@ -36,7 +36,7 @@
     ],
     "browser_specific_settings": {
         "gecko": {
-            "strict_min_version": "58",
+            "strict_min_version": "58.0",
             "id": "adaptive-toolbar@thiboshoekje-2.be"
         }
     }
