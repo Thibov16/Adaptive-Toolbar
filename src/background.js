@@ -103,7 +103,7 @@ function updateTheme(themeColor) {
         currentTheme.colors.tab_line = colors.background;
         currentTheme.colors.tab_selected = null;
         currentTheme.colors.tab_text = colors.foreground;
-        currentTheme.colors.tab_background_text = defaultTheme.colors.tab_background_text; // Keep the same color for the icons in the tab bar, because the default theme has a background with already the right color for the icons, and this background can possibly not match with the background of the toolbar
+        currentTheme.colors.tab_background_text = defaultTheme?.colors?.tab_background_text || null; // Keep the same color for the icons in the tab bar, because the default theme has a background with already the right color for the icons, and this background can possibly not match with the background of the toolbar
         currentTheme.colors.textcolor = "null";
         currentTheme.colors.toolbar = colors.background;
         currentTheme.colors.toolbar_text = colors.foreground;
